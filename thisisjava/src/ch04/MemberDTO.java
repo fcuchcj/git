@@ -1,4 +1,5 @@
-package ch02;
+
+package ch04;
 
 public class MemberDTO {
 	private String id;
@@ -49,7 +50,8 @@ public class MemberDTO {
 	   setId(name);
 	   setId(email);
 	}
-	 
+	
+	MemberDTO mDto3 = new MemberDTO("java2","java2","java2","java2@co.kr"); 
 	
 	
 }
