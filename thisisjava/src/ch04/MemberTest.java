@@ -27,6 +27,10 @@ public class MemberTest {
 			service.memberPrint();
 			break;
 		case 3:
+			System.out.println("자료검색...");
+			service.searchData();
+			break;
+		case 5:
 			System.out.println("종료");
 			System.exit(0);
 			default:
